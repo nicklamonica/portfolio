@@ -1,1 +1,24 @@
 
+.App {
+    border: 2px solid red;
+}
+
+.links-wrapper {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.links {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 550px;
+}
+
+.link {
+    cursor: pointer;
+}
